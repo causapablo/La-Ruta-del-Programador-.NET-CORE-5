@@ -1,0 +1,11 @@
+-Auto Close Tag
+-Auto Rename Tag.
+-Bracket Pair Colorized.
+-Code Runner.
+-html BoilerPlate.
+-Html snippets
+-html tag wrapper
+-Liver Server Preview
+-Nuget package manager.
+-Live server
+-Prettier code formatter.
