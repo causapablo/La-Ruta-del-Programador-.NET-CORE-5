@@ -9,3 +9,5 @@
 -Nuget package manager.
 -Live server
 -Prettier code formatter.
+
+-favicon.cc: Herramienta para crear iconos de las solapas.
