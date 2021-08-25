@@ -1,0 +1,915 @@
+<!-- CLASE CSS FLOTANTES -->
+
+<!-- 
+
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" width="200" alt="cloud-img">
+        <h1>Soy Hans</h1>
+        <h2>Un <span class="pro">MASTER</span> Desarrollador Web</h2>
+        <img class="bottom-cloud" src="images/cloud.png" width="200" alt="cloud-img">
+        <img src="images/mountain.png" width="800" alt="mountain-img">
+    </div>
+
+    
+    <div class="middle-container">
+        <div class="profile">
+        <img src="images/perfil.png" alt="Perfil" width="200">
+        <h2>Hola</h2>
+        <p>Soy un programador y diseñador web, me encanta el deporte y la lectura.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>Mis Habilidades</h2>
+            <div class="skill-row">
+                <img class="img-web" src="images/web.png" alt="Desarrollador Web">
+                <h3>Desarrollador Web</h3>
+                <p>Me encanta el diseño web con puro HTML Y CSS, buscando siempre nuevas tecnologias para el diseñar paginas web y estando en constante actualizacion</p>
+            </div>
+            <div class="skill-row">
+                <img class="img-js" src="images/javascript.png" alt="Desarrollador JS">
+                <h3>Desarrollador javascript</h3>
+                <p>Me encanta crear aplicaciones web con javascript, ya que es un lenguaje muy utilizado en el desarrollo web, para darle funcionalidad a una pagina web</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+        <h2>Ponerse en Contacto</h2>
+        <h3>Escribeme o sigueme en mis Redes Sociales</h3>
+        <p>Me encanta desarrollar paginas web, si quieres una escribeme!</p>
+        <a class="btn" href="mailto:fulano@email.com">Contactame</a>
+        </div>
+  </div>
+  
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p>© 2020 Hans Web.</p>
+  </div>
+  
+    
+    <br><br><br><br><br>
+
+    CSS
+
+    body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    margin: 20px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #53a3f3;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #53a3f3;
+    font-weight: normal;
+}
+
+h3 {
+    color: #53a3f3;
+}
+
+.top-container {
+    background-color: #ecf4f3;
+    position: relative;
+    padding-top: 200px;
+}
+
+.middle-container {
+    
+    
+}
+
+.bottom-container {
+    
+
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 370px;
+    top: 80px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    /* left: 370px;
+    bottom: 200px; */
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.img-web {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.img-js {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+ -->
+
+
+
+
+<!-- CLASE COLOR Y PESO DE FUENTES CSS -->
+
+<!-- 
+
+    HTML IGUAL
+
+    CSS 
+
+    body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    margin: 20px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #53a3f3;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #53a3f3;
+    font-weight: normal;
+}
+
+h3 {
+    color: #53a3f3;
+}
+
+.top-container {
+    background-color: #ecf4f3;
+    position: relative;
+    padding-top: 200px;
+}
+
+.middle-container {
+    
+    
+}
+
+.bottom-container {
+    
+
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 370px;
+    top: 80px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    /* left: 370px;
+    bottom: 200px; */
+}
+
+
+ -->
+
+
+
+<!-- CLASE DIMENSIONAMIENTO CSS -->
+
+<!-- 
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sitio Web Con CSS</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel='shortcut icon' href='http://localhost:5500/favicon.ico'>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="top-container">
+            <img class="top-cloud" src="images/cloud.png" width="200" alt="cloud-img">
+            <h1>Soy Hans</h1>
+            <h2>Un <span class="pro">MASTER</span> Desarrollador Web</h2>
+            <img class="bottom-cloud" src="images/cloud.png" width="200" alt="cloud-img">
+            <img src="images/mountain.png" width="800" alt="mountain-img">
+        </div>
+
+        
+        <div class="middle-container">
+            <div class="profile">
+            <img src="images/perfil.png" alt="Perfil" width="200">
+            <h2>Hola</h2>
+            <p>Soy un programador y diseñor web, me encanta el deporte y la lectura</p>
+            </div>
+            <hr>
+            <div class="skills">
+            <h2>Mis Habilidades</h2>
+            <div class="skill-row">
+                <img class="" src="images/web.png" alt="Desarrollador Web" width="200">
+                <h3>Desarrollador Web</h3>
+                <p>Me encanta el desarrollo web con puro HTML Y CSS</p>
+            </div>
+            <div class="skill-row">
+                <img class="" src="images/javascript.png" alt="Desarrollador JS" width="200">
+                <h3>Desarrollador javascript</h3>
+                <p>Me encanta crear aplicaciones web con javascript</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+        <h2>Ponerse en Contacto</h2>
+        <h3>Escribeme o sigueme en mis Redes Sociales</h3>
+        <p>Me encanta desarrollar paginas web, si quieres una escribeme!</p>
+        <a class="btn" href="mailto:fulano@email.com">Contactame</a>
+        </div>
+    </div>
+    
+    
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p>© 2020 Hans Web.</p>
+    </div>
+    
+        
+        <br><br><br><br><br>
+    </body>
+    </html>
+
+    CSS
+
+    body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    margin: 20px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.top-container {
+    background-color: #ecf4f3;
+    position: relative;
+    padding-top: 200px;
+}
+
+.middle-container {
+    
+    
+}
+
+.bottom-container {
+    
+
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 370px;
+    top: 80px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    /* left: 370px;
+    bottom: 200px; */
+}
+
+ -->
+
+
+
+<!-- CLASE AGREGAR CONTENIDO A SU SITIO WEB -->
+
+<!-- 
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sitio Web Con CSS</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel='shortcut icon' href='http://localhost:5500/favicon.ico'>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="top-container">
+            <img class="top-cloud" src="images/cloud.png" width="200" alt="cloud-img">
+            <h1>Soy Hans</h1>
+            <p>Un <span class="pro">MASTER</span> Desarrollador Web</p>
+            <img class="bottom-cloud" src="images/cloud.png" width="200" alt="cloud-img">
+            <img src="images/mountain.png" width="800" alt="mountain-img">
+        </div>
+
+        
+        <div class="middle-container">
+            <div class="profile">
+            <img src="images/perfil.png" alt="Perfil" width="200">
+            <h2>Hola</h2>
+            <p>Soy un programador y diseñor web, me encanta el deporte y la lectura</p>
+            </div>
+            <hr>
+            <div class="skills">
+            <h2>Mis Habilidades</h2>
+            <div class="skill-row">
+                <img class="" src="images/web.png" alt="Desarrollador Web" width="200">
+                <h3>Desarrollador Web</h3>
+                <p>Me encanta el desarrollo web con puro HTML Y CSS</p>
+            </div>
+            <div class="skill-row">
+                <img class="" src="images/javascript.png" alt="Desarrollador JS" width="200">
+                <h3>Desarrollador javascript</h3>
+                <p>Me encanta crear aplicaciones web con javascript</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+        <h2>Ponerse en Contacto</h2>
+        <h3>Escribeme o sigueme en mis Redes Sociales</h3>
+        <p>Me encanta desarrollar paginas web, si quieres una escribeme!</p>
+        <a class="btn" href="mailto:fulano@email.com">Contactame</a>
+        </div>
+    </div>
+    
+    
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p>© 2020 Hans Web.</p>
+    </div>
+    
+        
+        <br><br><br><br><br>
+    </body>
+    </html>
+
+    CSS 
+
+    body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    }
+
+    h1 {
+        margin-top: 0;
+        font-family: 'Sacramento', cursive;
+    }
+
+    .top-container {
+        background-color: #ecf4f3;
+        position: relative;
+        padding-top: 200px;
+    }
+
+    .middle-container {
+    
+    
+    }
+
+    .bottom-container {
+        
+
+    }
+
+    .pro {
+        text-decoration: underline;
+    }
+
+    .top-cloud {
+        position: absolute;
+        right: 370px;
+        top: 80px;
+    }
+
+    .bottom-cloud {
+        position: absolute;
+        /* left: 370px;
+        bottom: 200px; */
+    }
+
+
+ -->
+
+
+<!-- CLASE ESTILO DE FUENTE EN NUESTRO SITIO WEB -->
+    
+<!-- 
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sitio Web Con CSS</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel='shortcut icon' href='http://localhost:5500/favicon.ico'>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="top-container">
+            <img class="top-cloud" src="images/cloud.png" width="200" alt="cloud-img">
+            <h1>Soy Hans</h1>
+            <p>Un <span class="pro">MASTER</span> Desarrollador Web</p>
+            <img class="bottom-cloud" src="images/cloud.png" width="200" alt="cloud-img">
+            <img src="images/mountain.png" width="800" alt="mountain-img">
+        </div>
+        <div class="middle-container">
+
+        </div>
+        <div class="bottom-container">
+
+        </div>
+        <br><br><br><br><br>
+    </body>
+    </html>
+
+    CSS
+
+    body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    }
+
+    h1 {
+        margin-top: 0;
+        font-family: 'Sacramento', cursive;
+    }
+
+    .top-container {
+        background-color: #ecf4f3;
+        position: relative;
+        padding-top: 200px;
+    }
+
+    .middle-container {
+        background-color: red;
+        width: 300px;
+        height: 300px;
+        
+    }
+
+    .bottom-container {
+        background-color: blue;
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .pro {
+        text-decoration: underline;
+    }
+
+    .top-cloud {
+        position: absolute;
+        right: 370px;
+        top: 80px;
+    }
+
+    .bottom-cloud {
+        position: absolute;
+        /* left: 370px;
+        bottom: 200px; */
+    }
+
+ -->
+
+<!-- CLASE CENTRAR ELEMENTOS CON CSS  -->
+
+<!-- 
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sitio Web Con CSS</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel='shortcut icon' href='http://localhost:5500/favicon.ico'>
+    </head>
+    <body>
+        <div class="top-container">
+            <img class="top-cloud" src="images/cloud.png" width="200" alt="cloud-img">
+            <h1>Soy Hans</h1>
+            <p>Un <span class="pro">MASTER</span> Desarrollador Web</p>
+            <img class="bottom-cloud" src="images/cloud.png" width="200" alt="cloud-img">
+            <img src="images/mountain.png" width="800" alt="mountain-img">
+        </div>
+        <div class="middle-container">
+
+        </div>
+        <div class="bottom-container">
+
+        </div>
+        <br><br><br><br><br>
+    </body>
+    </html>
+
+
+    CSS
+
+    body {
+    margin: 0;
+    text-align: center;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    .top-container {
+        background-color: #ecf4f3;
+        position: relative;
+        padding-top: 200px;
+    }
+
+    .middle-container {
+        background-color: red;
+        width: 300px;
+        height: 300px;
+        
+    }
+
+    .bottom-container {
+        background-color: blue;
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .pro {
+        text-decoration: underline;
+    }
+
+    .top-cloud {
+        position: absolute;
+        right: 370px;
+        top: 80px;
+    }
+
+    .bottom-cloud {
+        position: absolute;
+        
+    }
+
+ -->
+
+
+<!-- CLASE POSICIONAMIENTO ABSOLUTO -->
+
+<!-- EL MISMO HTML
+
+
+    CSS
+
+    body {
+    margin: 0;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    .top-container {
+        background-color: #ecf4f3;
+    }
+
+    .middle-container {
+        background-color: red;
+        width: 300px;
+        height: 300px;
+        position: fixed;
+        top: 0;
+    }
+
+    .bottom-container {
+        background-color: blue;
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .pro {
+        text-decoration: underline;
+    }
+
+
+-->
+
+<!-- CLASE POSICIONAMIENTO RELATIVO Y ESTATICO -->
+
+<!-- 
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sitio Web Con CSS</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel='shortcut icon' href='http://localhost:5500/favicon.ico'>
+    </head>
+    <body>
+        <div class="top-container">
+            <img src="images/cloud.png" width="200" alt="cloud-img">
+            <h1>Soy Hans</h1>
+            <p>Un <span class="pro">MASTER</span> Desarrollador Web</p>
+            <img src="images/cloud.png" width="200" alt="cloud-img">
+            <img src="images/mountain.png" width="800" alt="mountain-img">
+        </div>
+        <div class="middle-container">
+
+        </div>
+        <div class="bottom-container">
+
+        </div>
+        <br><br><br><br><br>
+    </body>
+    </html>
+
+
+    CSS
+
+    body {
+    margin: 0;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    .top-container {
+        background-color: #ecf4f3;
+    }
+
+    .middle-container {
+        background-color: red;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        display: inline-block;
+        
+    }
+
+    .bottom-container {
+        background-color: blue;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        display: inline-block;
+    }
+
+    .pro {
+        text-decoration: underline;
+    }
+
+ -->
+
+
+<!-- CLASE PROPIEDADES DE PANTALLA CSS -->
+
+<!-- 
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sitio Web Con CSS</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel='shortcut icon' href='http://localhost:5500/favicon.ico'>
+    </head>
+    <body>
+        <div class="top-container">
+            <img src="images/cloud.png" width="200" alt="cloud-img">
+            <h1>Soy Hans</h1>
+            <p>Un <span class="pro">MASTER</span> Desarrollador Web</p>
+            <img src="images/cloud.png" width="200" alt="cloud-img">
+            <img src="images/mountain.png" width="800" alt="mountain-img">
+        </div>
+        <div class="middle-container">
+
+        </div>
+        <div class="bottom-container">
+
+        </div>
+        <br><br>
+        <h2 class="texto1">Texto 1</h2>
+        <h2 class="texto2">Texto 2</h2>
+        <br><br><br><br><br>
+    </body>
+    </html>
+
+    **********CSS
+    
+    body {
+    margin: 0;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    .top-container {
+        background-color: #ecf4f3;
+    }
+
+    .middle-container {
+        background-color: red;
+        width: 300px;
+        height: 300px;
+    }
+
+    .bottom-container {
+        background-color: blue;
+        width: 300px;
+        height: 300px;
+    }
+
+    .pro {
+        text-decoration: underline;
+    }
+
+    .texto1 {
+        width: 150px;
+        display: none;
+        background-color: aqua;
+    }
+
+    .texto2 {
+        width: 150px;
+        display: inline;
+        background-color: aqua;
+    }
+
+ -->
+
+<!-- ******** CLASE BOX MODEL -->
+
+<!-- 
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sitio Web Con CSS</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel='shortcut icon' href='http://localhost:5500/favicon.ico'>
+    </head>
+    <body>
+        <div class="top-container">
+            <h1>Soy Hans</h1>
+            <p>Un Desarrollador Web</p>
+        </div>
+        <div class="middle-container">
+
+        </div>
+        <div class="bottom-container">
+
+        </div>
+    </body>
+    </html>
+
+
+    CSS
+
+    body {
+    margin: 0;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    .top-container {
+        background-color: #ecf4f3;
+    }
+
+    .middle-container {
+        background-color: red;
+        width: 300px;
+        height: 300px;
+    }
+
+    .bottom-container {
+        background-color: blue;
+        width: 300px;
+        height: 300px;
+    }
+
+ -->
+
+
+
+<!-- ******* CLASE DIV -->
+<!-- 
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sitio Web Con CSS</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel='shortcut icon' href='http://localhost:5500/favicon.ico'>
+    </head>
+    <body>
+        <div>
+            <h1>Soy Hans</h1>
+            <p>Un Desarrollador Web</p>
+        </div>
+    </body>
+    </html>
+
+    CSS
+
+    body {
+    margin: 0;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    div {
+        background-color: #ecf4f3;
+    }
+
+ -->
+
+
+
+<!-- ******** CLASE - SITIO WEB CON ESTILOS -->
+
+<!-- 
+    ********* HTML
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sitio Web Con CSS</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        
+    </body>
+    </html>
+
+    ********* CSS
+
+    body {
+    background-color: cornflowerblue;
+    }
+
+ -->
