@@ -7,23 +7,29 @@
     <title>CSS Flexbox</title>
     <style>
         .container{
+            height: 700px;
             margin-top: 50px;
-            padding: 20px 0;
+            /*padding: 20px 0;*/
             background-color: #f19861;
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             /*El flex-floq reemplaza el flex-direction y el flex wrap
             flex-flow: row wrap;*/
             justify-content: space-evenly;
+            align-items: baseline;
         }
         .item{
+            width: 70px;
             padding: 30px;
             margin: 10px;
             background-color: #06af8f;
             text-align: center;
             font-size: 30px;
             color: #fff;
+        }
+        .item-1{
+            font-size: 70px;
         }
     </style>
 </head>
@@ -34,6 +40,10 @@
         <div class="item item-3">C</div>
         <div class="item item-4">D</div>
         <div class="item item-5">E</div>
+        <div class="item item-6">F</div>
+        <div class="item item-7">G</div>
+        <div class="item item-8">H</div>
+        <div class="item item-9">I</div>
     </div>
     
 </body>
