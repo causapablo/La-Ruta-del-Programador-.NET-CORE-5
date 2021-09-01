@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombrar Elementos</title>
+    <style>
+        .container{
+            width: 800px;
+            height: 500px;
+            background-color: #efefef;
+            margin: auto;
+            display: grid;
+            grid-template-rows: [header-start] 1fr [header-end main-start] 1fr 1fr [main-end box-start] 1fr [box-end footer-start] 1fr [footer-end];
+            grid-template-columns: [side-start] 1fr [side-end box1-start] 1fr [box1-end box2-start] 1fr [box2-end box3-start] 1fr [box3-end];
+            grid-gap: 1rem;
+        }
+        .container div{
+            background-color: royalblue;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+            color: #fff;
+        }
+        .header{
+            grid-column: side-start/box3-end;
+            grid-row: header-start/header-end;
+        }
+        .sidebar{
+            grid-column: side-start/side-end;
+            grid-row: main-start/box-end;
+        }
+        .main{
+            grid-column: box1-start/box3-end;
+            grid-row: main-start/main-end;
+        }
+        .footer{
+            grid-column: side-start/box3-end;
+            grid-row: footer-start/footer-end;
+        }
+        .box-1{
+            grid-column: 2/3;
+            grid-row: 4/5;
+        }
+        .box-2{
+            grid-column: 3/4;
+            grid-row: 4/5;
+        }
+        .box-3{
+            grid-column: 4/5;
+            grid-row: 4/5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Header
+        </div>
+        <div class="sidebar">
+            Sidebar
+        </div>
+        <div class="main">
+            Main
+        </div>
+        <div class="box-1">
+            Box 1
+        </div>
+        <div class="box-2">
+            Box 2
+        </div>
+        <div class="box-3">
+            Box 3
+        </div>
+        <div class="footer">
+            Footer
+        </div>
+
+    </div>
+</body>
+</html>

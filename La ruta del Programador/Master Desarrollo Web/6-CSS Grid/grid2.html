@@ -8,17 +8,15 @@
     <style>
         .container{
             width: 800px;
-            height: 400px;
+            
             background-color: #ddd;
             margin: 40px auto;
             display: grid;
-            /* grid-template-rows: 150px 150px; */
-            grid-template-rows: 2fr 1fr;
-            /* grid-template-columns: auto auto auto ; */
-            /* grid-template-columns: 3fr 2fr 1fr; */
-            grid-template-columns: 150px repeat(2,1fr);
-            /* grid-row-gap: 30px;
-            grid-column-gap: 30px; */
+            
+            grid-template-rows: 1fr 1fr;
+            
+            grid-template-columns: repeat(3,1fr);
+            
             grid-gap: 30px;
         }
         .item{
@@ -30,12 +28,23 @@
         }
         .item-1{
             background-color: orangered;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            
         }
         .item-2{
             background-color: olivedrab;
+            /* grid-column: 2/3;
+            grid-row: 2/3; */
+            grid-area: 2/2/3/3;
+            /* z-index: 10 */;
         }
         .item-3{
             background-color: royalblue;
+           /* grid-column: 1/3;
+           grid-row: 1/3; */
         }
         .item-4{
             background-color: palevioletred;
@@ -45,6 +54,8 @@
         }
         .item-6{
             background-color: blueviolet;
+            grid-column: 1/span 3;
+            
         }   
     </style>
 </head>
