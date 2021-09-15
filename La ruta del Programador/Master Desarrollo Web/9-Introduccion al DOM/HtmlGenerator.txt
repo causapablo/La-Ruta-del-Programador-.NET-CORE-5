@@ -1,0 +1,1 @@
+HtmlGenerator Extension para ver la estructura DOM del sitio web. 

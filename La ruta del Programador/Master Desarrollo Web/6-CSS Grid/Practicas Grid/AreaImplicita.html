@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin-top: 200px;
+            
+        }
+        .container{
+            margin: auto;
+            width: 320px;
+            background-color: #efefef;
+            font-size: 35px;
+            display: grid;
+            grid-template-columns: repeat(3,100px);
+            grid-auto-columns: 100px;
+            grid-gap: 10px;
+        }
+        .container div{
+            background-color: royalblue;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .A{
+            grid-column: 1/span 2;
+        }
+        .B{
+            grid-row: 1/span 2;
+            grid-column: 3;
+        }
+        .E{
+            grid-column: 4/-1;
+            grid-row: 1/4;
+        }
+    </style>
+    <title>Area Implicita</title>
+</head>
+<body>
+    <div class="container">
+        <div class="A">A</div>
+        <div class="B">B</div>
+        <div class="c">C</div>
+        <div class="D">D</div>
+        <div class="E">E</div>
+        
+    </div>
+</body>
+</html>
