@@ -1,0 +1,39 @@
+gh
+HTML
+1) Creamos los archivos index, styles y scripts.
+2)Importamos los cdnjs de font awesome. 
+3) Importamos las tipografias desde google fonts, Josefine Sans.
+	-Light 300.
+	-Regular 400.
+	-Semi-Bold 600.
+	-Bold 700.
+4)Una vez configurado el entorno de trabajo, vamos desarrollando cada sección del proyecto.
+5)creamos una section de clase main-page.
+Izquierda:
+	-Creamos div.left, area izquierda, que contiene un div.left-content.
+	-Este left content contiene 3 divs, cada uno con su icono y su texto.
+Derecha:
+	Superior:
+	-Creamos un div.right,area derecha, que contiene un div.right-content.
+	-Este lado derecho contiene un form como encabezado, form.right-content-form
+	-Hay un input de telefono, usuario. Y otro div que contiene el password y el label. 			además tiene un botón de iniciar session.
+	Media: 
+	-div.middle-content. Este contiene iconos, texto y boton registrar e iniciar sesion.
+
+CSS
+-Creamos los estilos comunes.
+1) Definimos el margin y el padding de todos los elementos.0.
+2)Definir el font-size del html. 62.5%.
+3) definir el background del html.
+4) definir las caracteristicas del main-page.
+5)definir las propiedades del contenedor left.
+6)definir las propiedades de los div dentro del contenedor left-content.
+7)definir las propiedades de los iconos dentro del left-content.
+8)definimos las propiedaes del contenedor right. Definimos position:relative.
+9)definimos las propiedades del right-content-form. Recordar que cuando queremos que los elementos se alineen de forma horizontal, tenemos que usar disaply: flex;	
+10) Definimos propiedades del middle-content. configuramos el position:absolute. Tambien usamos el transform: translate(-50%,-50%) para terminar de centrarlo. 
+11) Definimos propiedades del label del form. position: absolute.
+12)Al div que contiene los labels, right-content-form div, lo definimos como position:absolute.
+Esto se hace para que se pueda ubicar el label debajo del input.
+13)Definimos las propiedades de los input.
+14) definimos las propiedades del btn-top.

@@ -1,0 +1,179 @@
+/* Inicio de los estilos comunes */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "josefin sans", sans-serif;
+  /* 1rem=16px por default
+    Si queremos que 1rem = 10px, tenemos que hacer una conversion,
+    y setear el font-size en un porcentaje que se calcula como sigue. */
+  outline: none;
+}
+html {
+  /* 10px/16px=0.625*100=62.5% */
+  /* como valor predeterminado de fuente tenemos que ponerle 62.5%, con esto, tenemos 1rem=10px */
+  font-size: 62.5%;
+}
+body {
+  background-color: #f0f8fd;
+}
+/* Fin de los estilos comunes */
+
+/* INICIO DE LOS ESTILOS DE LA PAGINA PRINCIPAL */
+.main-page {
+  width: 100%;
+  height: 100vh; /* el 100vh es el 100% de la ventana */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr min-content;
+}
+/* INICIO LADO IZQUIERDO */
+.left {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: #1aa1f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.left-content div {
+  display: flex;
+  align-items: center;
+  margin: 4rem;
+  color: #fff;
+}
+.left-content i {
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+/* FIN LADO IZQUIERDO */
+
+/* INICIO DEL LADO DERECHO */
+.right {
+  grid-column: 2/-1;
+  grid-row: 1/2;
+  position: relative;
+}
+.right-content-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.right-content-form input {
+  width: 20rem;
+  height: 4.5rem;
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  padding: 0 1rem;
+  border: 0.1rem solid #ddd;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+.right-content-form div {
+  position: relative;
+}
+.right-content-form input:focus {
+  /* Cuando nos posicionamos sobre el input cambia de color a #d9ebf7 */
+
+  background-color: #d9ebf7;
+  /* Con esto le sacamos el borde  */
+}
+.right-content-form label {
+  position: absolute;
+  top: 5.5rem;
+  left: 1.3rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #a7a6a6;
+}
+.btn-top {
+  width: 12rem;
+  background-color: #fff;
+  color: #1aaaf5;
+  border: 0.2rem solid #1aa1f5;
+  border-radius: 3rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer; /* Cuando se posiciona el cursor sobre el btn aparece una mano */
+}
+.btn-top:hover {
+  background-color: #d9ebf7;
+  transition: background-color 0.3s;
+}
+
+.middle-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Alinear los elementos verticalmente */
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.middle-content i{
+    font-size: 4rem;
+    color: #1aaaf5;
+    margin-bottom: 2rem;
+}
+.middle-content h1{
+    font-size: 2.8rem;
+    margin-bottom: 4rem;
+    line-height: 4rem;
+
+}
+.middle-content h4{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.middle-content button{
+    margin: 0.8rem 0;
+    padding: 0.5rem;
+    border: 0.1rem solid #1aa1f5;
+    border-radius: 4rem;
+    
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 1.3s;
+}
+.sign-up{
+    background-color: #1aa1f5;
+    color: #fff;
+}
+.sign-up:hover{
+    background-color: #0f5d8d;
+}
+
+.log-in{
+    background-color: #fff;
+}
+.log-in:hover{
+    background-color: #d9ebf7;
+}
+/* FIN DEL LADO DERECHO */
+
+/* INICIO DE PIE DE PAGINA */
+.main-page-footer{
+    grid-column: 1/-1;
+    grid-row: 2/-1;
+    background-color: #f5f4f4;
+    padding: 1.5rem;
+    border-top: 0.1rem solid #ddd;
+}
+.main-page-footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+    
+}
+.main-page-footer a{
+    font-size: 1.5rem;
+    margin: 0 2rem;
+    text-decoration: none;
+    color: #444;
+    font-weight: 300;
+}
+/* FIN DE PIE DE PAGINA */
+/* FIN DE LOS ESTILOS DE LA PAGINA PRINCIPAL */
