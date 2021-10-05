@@ -1,6 +1,6 @@
 -Auto Close Tag
 -Auto Rename Tag.
--Bracket Pair Colorized.
+-Bracket Pair Colorized 2.
 -Code Runner.
 -html BoilerPlate.
 -Html snippets
